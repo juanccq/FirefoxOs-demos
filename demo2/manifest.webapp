@@ -1,0 +1,20 @@
+{
+	"version": "1.0",
+	"name": "pac-man",
+	"launch_path": "index.html",
+	"description": "The pac-man game",
+	"icons": {
+		"16": "images/icon16.png",
+		"32": "images/icon32.png",
+		"48": "images/icon48.png",
+		"60": "images/icon60.png",
+		"64": "images/icon64.png",
+		"128": "images/icon128.png"
+	},
+	"developer": {
+		"name": "Juan Carlos Choque Quispe",
+		"url": "http://www.codigobase.com"
+	},
+	"installs_allowed_from": ["*"],
+	"default_locale": "es"
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pac-man</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="stage"></div>
+		<div id="controls">
+			<div id="up">
+				<a href="#" onclick="moveUp()">
+					<img src="images/up1.png" alt="arriba">
+				</a>
+			</div>
+			<div id="left">
+				<a href="#" onclick="moveleft()">
+					<img src="images/left.png" alt="izquierda">
+				</a>
+			</div>
+			<div id="right">
+				<a href="#" onclick="moveRight()" ontouchmove="moveRight()">
+					<img src="images/right.png" alt="derecha">
+				</a>
+			</div>
+			<div id="down">
+				<a href="#" onclick="moveDown()">
+					<img src="images/down1.png" alt="abajo">
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</body>
+</html>

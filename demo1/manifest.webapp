@@ -1,0 +1,17 @@
+{
+	"version": "1.0",
+	"name": "demo1",
+	"launch_path": "index.html",
+	"description": "demo1",
+	"icons": {
+		"16": "images/icon16.png",
+		"32": "images/icon32.png",
+		"48": "images/icon48.png"
+	},
+	"developer": {
+		"name": "Juan Carlos Choque Quispe",
+		"url": "http://www.codigobase.com"
+	},
+	"installs_allowed_from": ["*"],
+	"default_locale": "es"
+}
